@@ -20,4 +20,5 @@
     Scenario: TS09 parametre ile arama yapilabilmeli
       And "iphone" icin arama yapar
       Then aradigin urunun bulundugunu test eder
+      And 2 saniye bekler
       And sayfayi kapatir
